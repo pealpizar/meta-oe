@@ -35,6 +35,7 @@ PACKAGECONFIG[opengl] = "--enable-gl,--enable-gles,glew"
 PACKAGECONFIG[openglesv2] = "--enable-gles,--enable-gl,"
 
 EXTRA_OECONF = " \
+    --disable-rxsx \
     --disable-rpath \
     --enable-libusb \
     --enable-airplay \
